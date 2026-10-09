@@ -1,0 +1,14 @@
+{
+  "app_name": "Your App",
+  "category": "Wellness",
+  "audience": "People who want a simpler daily routine",
+  "core_value": "Build a calm, consistent habit",
+  "features": ["Guided sessions", "Progress history", "Daily reminders"],
+  "platforms": ["apple", "google"],
+  "devices": ["iphone_medium", "iphone_duo_outer", "iphone_duo_inner", "ipad_13", "phone_screenshot", "tablet_screenshot"],
+  "locales": ["en-US", "it-IT"],
+  "source_screenshots": [{"path": "<provide-real-capture>.png", "os": "ios", "device": "iphone_medium", "locale": "en-US", "feature": "Guided sessions"}],
+  "visual_references": [],
+  "brand": {"primary": "#5143A5", "secondary": "#F7F3EF", "font_preference": "Use my provided licensed font or environment font"},
+  "approval": {"creative_direction": "pending", "storyboard": "pending", "copy": "pending"}
+}

@@ -1,0 +1,12 @@
+{
+  "app": "Your App",
+  "platforms": ["apple", "google"],
+  "locale": "en-US",
+  "creative_direction": "Product Clarity",
+  "status": "pending approval",
+  "frames": [
+    {"order": 1, "benefit": "Core outcome", "headline": "Feel more focused, every day", "source_capture": "<real-ui-1>.png", "claim_checked": false},
+    {"order": 2, "benefit": "Main workflow", "headline": "Make a moment for yourself", "source_capture": "<real-ui-2>.png", "claim_checked": false},
+    {"order": 3, "benefit": "Differentiator", "headline": "Find the practice that fits", "source_capture": "<real-ui-3>.png", "claim_checked": false}
+  ]
+}

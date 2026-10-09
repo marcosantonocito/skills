@@ -1,0 +1,27 @@
+{
+  "snapshot_date": "2026-10-09",
+  "verification_policy": "Live official documentation wins over this snapshot; no machine check can certify store approval.",
+  "sources": {
+    "apple_screenshots": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications",
+    "apple_creative": "https://developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications",
+    "apple_icons": "https://developer.apple.com/design/human-interface-guidelines/app-icons/",
+    "google_preview_assets": "https://support.google.com/googleplay/android-developer/answer/9866151?hl=en-GB"
+  },
+  "apple": {
+    "iphone_medium": {"size_options": [[1179,2556],[1206,2622],[2556,1179],[2622,1206]], "max_count":10,"alpha":false},
+    "iphone_large": {"size_options": [[1260,2736],[1290,2796],[1320,2868],[2736,1260],[2796,1290],[2868,1320]], "max_count":10,"alpha":false},
+    "iphone_duo_outer": {"size_options": [[1398,2034],[2034,1398]], "max_count":10,"alpha":false},
+    "iphone_duo_inner": {"size_options": [[2007,2853],[2853,2007]], "max_count":10,"alpha":false},
+    "ipad_13": {"size_options": [[2064,2752],[2048,2732],[2752,2064],[2732,2048]], "max_count":10,"alpha":false},
+    "header": {"size_options": [[3840,1646]], "alpha":false},
+    "search_creative": {"size_options": [[1920,1280],[3840,2560]], "allow_three_two_range":true,"alpha":false},
+    "universal_creative": {"size_options": [[5244,2950]], "alpha":false,"format":"PNG"},
+    "icon_flat_source": {"size_options": [[1024,1024]], "alpha":false,"informational":"Raster concept/source only, not complete Apple Icon Composer integration."}
+  },
+  "google": {
+    "phone_screenshot": {"min_short":320,"max_long":3840,"max_ratio":2.0,"max_count":8,"alpha":false},
+    "tablet_screenshot": {"min_short":320,"max_long":7680,"max_ratio":2.0,"max_count":8,"alpha":false,"note":"Google has distinct large-screen 1080-7680px guidance; reverify before labeling compliant."},
+    "feature_graphic": {"size_options": [[1024,500]],"alpha":false},
+    "icon": {"size_options": [[512,512]],"alpha":true,"format":"PNG","max_bytes":1048576,"require_rgba":true}
+  }
+}

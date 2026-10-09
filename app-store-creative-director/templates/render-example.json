@@ -1,0 +1,9 @@
+{
+  "canvas": {"platform": "apple", "kind": "iphone_medium", "variant": 0},
+  "background": {"color": "#F4F0FE", "gradient_to": "#DFE9FC"},
+  "elements": [
+    {"type": "circle", "box": [795, 620, 310, 310], "fill": "#C0B4F1"},
+    {"type": "screenshot", "path": "sample-ui.png", "box": [185, 620, 805, 1680], "fit": "contain", "corner_radius": 65, "rotation": -4, "shadow": true},
+    {"type": "text", "text": "Find your moment of calm", "box": [75, 135, 1030, 440], "font_size": 118, "min_font_size": 62, "max_lines": 3, "align": "center", "color": "#302650"}
+  ]
+}

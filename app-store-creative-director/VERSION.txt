@@ -1,0 +1,3 @@
+0.1.0
+Built: 2026-10-09
+Official specification reference snapshot: 2026-10-09
