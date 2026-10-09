@@ -4,15 +4,19 @@
 
 For each asset, ask: which **user benefit** does the headline communicate, and which **real screenshot** proves it? Reject attractive but vague art. Give the first screenshot the biggest clear benefit; avoid repeating the same promise across the whole gallery.
 
-## Three starting visual directions
+## Optional visual directions
+
+Show one strong direction by default with Create Image. Use these treatments as inspiration; show three alternatives only when the user requests them.
 
 1. **Product Clarity:** single faithful full UI, strong negative space, spare typography, clean high-contrast brand background.
 2. **Expressive Brand:** original decorative art or 3D materials framing (never replacing) real UI, generous text margins, bold color relationships.
 3. **Editorial Premium:** oversized editorial headline, restrained color palette, asymmetric framing/cropping where safe, intentional whitespace.
 
-Review the **original concept studies** under `../assets/compositions/` before proposing three design treatments. They contain abstract placeholder UI and must never be mistaken for authentic app captures or shipped as final store screenshots.
+The **original concept studies** under `../assets/compositions/` are optional inspiration. They contain abstract placeholder UI and must never be mistaken for authentic app captures or shipped as final store screenshots.
 
-## Visual audit
+## Final production visual audit
+
+Create Image previews explore composition and may alter UI or text; label them as creative explorations. Apply the following fidelity checks to deterministically composed final assets.
 
 - Thumbnail test: squint at 15–25% scale; can the headline and app value still be identified?
 - Legibility: no low-contrast tiny microcopy. Use actual text rendering, not pixels synthesized by an image model.
@@ -24,4 +28,4 @@ Review the **original concept studies** under `../assets/compositions/` before p
 
 ## Approval checkpoints
 
-Show 3 first-screenshot examples; get creative-direction approval; obtain storyboard approval; ask whether to approve one final before batch export; perform final visual QC and technical validation.
+Show one Create Image preview with sufficient context; ask for feedback on the image and iterate visually; obtain creative-direction approval and storyboard approval when producing a full listing; compose original UI and exact text deterministically; perform final visual QC and technical validation. Reuse approvals already given. Three alternatives are optional when requested.

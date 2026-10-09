@@ -4,9 +4,9 @@
 
 This is a **link-based discovery catalog** and creative review guide, **not** a licensed redistribution library of other apps' screenshot binaries. User-provided screenshot URLs or image uploads always take precedence. App Store links are discovery starting points: listing images and their visual styles **can change**; do not claim knowledge of the currently displayed screenshots without opening/viewing them. Never use third-party screenshots, logos, assets, characters or compositions as drop-in artwork without permission.
 
-## Ask the user first
+## Use available references first
 
-> Do you have any visual references? Send App Store/Google Play listing URLs, direct links to specific screenshots, or upload the images. If you don't, I can show three directions and suggest apps to browse for inspiration.
+Reuse references already supplied in the conversation or workspace. When context is sufficient, generate one Create Image preview immediately; missing optional references should not trigger a questionnaire or delay the visual. Ask for a reference only when essential to the requested result. Offer research when the user requests it, and three creative directions only when requested.
 
 If the URL cannot be fetched or does not expose the intended screenshot, request the image upload rather than claiming it was inspected.
 

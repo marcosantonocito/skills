@@ -5,9 +5,9 @@ Portable, English-language AI creative-director skill for visual assets used in 
 ## Start here
 
 1. Make this folder available to a skill-capable AI environment and request `app-store-creative-director`. If using ChatGPT without a compatible skill loader, attach `SKILL.md` and relevant references and ask ChatGPT to follow them. **A folder does not automatically install or activate a ChatGPT Plugin.**
-2. Upload genuine app screenshots, specifying their platform/device/locale, and optionally brand details or visual reference URLs. Ask for **three distinct creative treatments**.
-3. Approve the selected style and proposed 5–8 screenshot narrative.
-4. Supply authorized background/decorative artwork (AI generated or original). Use the deterministic renderer to composite genuine captures and exact text into selected canvas sizes.
+2. Supply genuine app screenshots and any available branding or references. With sufficient context, the skill immediately shows **one creative preview using ChatGPT Create Image**. Three alternatives are optional when requested.
+3. Give feedback on the image and iterate visually with Create Image. Approve the creative direction and, for a full listing, the screenshot narrative before final production. Generated previews may alter UI or lettering and are not exact product representations.
+4. After approval, prepare separate authorized background/decorative artwork (AI generated or original). Use the deterministic renderer to composite original captures and exact text into selected canvas sizes; do not export AI-recreated interfaces as final screenshots.
 5. Verify the latest official dimensions from the linked documentation, run validation, inspect the assets, then export/upload yourself.
 
 ## Runtime dependencies
@@ -35,4 +35,5 @@ The example manifest is instructional and references `sample-ui.png` (not includ
 - No automated detection that the UI reflects the latest app build; developer must check.
 - Apple's layered Liquid Glass icons are **not generated as Icon Composer projects** by a raster export. A 1024px PNG is only a design source/integration asset.
 - Technical image validity is not equal to policy/legal approval. The supplied rules are snapshots (reviewed 2026-10-09) and require live verification.
-- The production scripts support composition, rendering, and image validation; AI background generation and visual critique depend on capabilities in the hosting environment.
+- Native Create Image is the default for creative exploration and visual iteration; availability depends on the hosting environment. If unavailable, the skill uses available visual compositing tools and states the limitation.
+- The production scripts support deterministic composition, exact text, and image validation after creative approval.
