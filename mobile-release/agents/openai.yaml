@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile Release"
+  short_description: "Track Expo changes and prepare store release copy"
+  default_prompt: "Use $mobile-release to track this Expo app task or prepare a release."
